@@ -52,13 +52,49 @@ require_once 'connexion.php';
 
    <!-- FORMULAIRE CHANCELLA-->
 
-   
-   
+                        <form>
+                                <div class="row">
+                                  <div class="col-6">
+                                    <input type="text" class="form-control" placeholder="Nom">
+                                  </div>
+                                  <div class="col">
+                                    <input type="text" class="form-control" placeholder="Prenom">
+                                  </div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-6">
+                                          <input type="date" class="form-control" placeholder="Date de naissance">
+                                        </div>
+                                        <div class="col">
+                                          <input type="text" class="form-control" placeholder="Tuteur">
+                                        </div>
+                                      </div>
+                                      <div class="row">
+                                            <div class="col-6">
+                                              <input type="text" class="form-control" placeholder=" Ville">
+                                            </div>
+                                            <div class="col-6">
+                                              <input type="number" class="form-control" placeholder="Contact">
+                                            </div>
+                                          </div>
+                                          <p>Genre:</p>
+                                          <div class="custom-control custom-radio custom-control-inline">
+                                                <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                                                <label class="custom-control-label" for="customRadioInline1">Masculin</label>
+                                              </div>
+                                              <div class="custom-control custom-radio custom-control-inline">
+                                                <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                                                <label class="custom-control-label" for="customRadioInline2">Feminin</label>
+                                              </div>
+                                          <div class="row">
+                                                <div class="col-6">
+                                                        <div class="col-auto">
+                                                                <button type="submit" class="btn btn-danger mb-2">Ajouter</button>
+                                                                <button type="submit" class="btn btn-danger mb-2">Annuler</button>
+                                                              </div>
+                              </form>
+        
 
-
-
-    
-   
    <div class="m-5 text-center text-light bg-danger" height: 55px;>
         <h2>COPYRIGHT SIMPLON 2023</h2>
     </div>
