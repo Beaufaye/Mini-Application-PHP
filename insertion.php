@@ -1,14 +1,16 @@
 <?php
 require_once 'connexion.php';
 
-$name_a=$_POST['nom'];
-$pren_a=$_POST['prenom'];
-$date_a=$_POST['date_naiss'];
-$genre_a=$_POST['genre'];
-$contact_a=$_POST['ville'];
+$nom=$_POST['nom'];
+$prenom=$_POST['prenom'];
+$date=$_POST['date_naiss'];
+$genre=$_POST['genre'];
+$ville=$_POST['ville'];
+$tuteur=$_POST['tuteur'];
+$contact=$_POST['contact'];
 
-$requette2 = bd()->prepare('SELECT * FROM etudiant WHERE contact=?');
-$requette2->execute (array($contact_a));
+$requette2 = bd()->prepare('SELECT * FROM apprenant WHERE contact=?');
+$requette2->execute (array($contact));
 $donnees_exist = $requette2->fetchAll();
 if(count ($donnees_exist) == 1) {
 
@@ -17,9 +19,9 @@ if(count ($donnees_exist) == 1) {
    </script>";
 }
 else {
-   $requette=bd()->prepare ('INSERT INTO etudiant(nom, prenom, date_naiss, genre,contact) value(?,?,?,?,?)');
-   $requette->execute (array($name_a,$pren_a,$date_a,$genre_a,$contact_a));
-   header('location:liste.php');
+   $requette=bd()->prepare ('INSERT INTO apprenant(nom, prenom, date_naiss, genre, ville, tuteur, contact) value(?,?,?,?,?,?,?)');
+   $requette->execute (array($nom,$prenom,$date,$genre,$ville,$tuteur,$contact));
+   header('location:apprenants.php');
 }
 
 ?>
