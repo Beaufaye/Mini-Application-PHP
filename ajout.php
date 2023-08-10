@@ -40,9 +40,7 @@ require_once 'connexion.php';
                           <div class="col-5 m-3">
                                     <input type="date" class="form-control m-2" placeholder="Date de naissance" name="date_naiss">
                           </div>
-                        <div class="col-5 m-3">
-                                   <input type="text" class="form-control m-2" placeholder="Tuteur" name="tuteur">
-                         </div>
+                        
                           </div>
                               <div class="row mt-3">
                                             <div class="col-5 m-3">
