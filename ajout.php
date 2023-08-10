@@ -26,7 +26,7 @@ require_once 'connexion.php';
    <!-- FORMULAIRE CHANCELLA-->
 
    <div class="m-5 bg-danger"  >
-   <form action="" method="post">
+   <form action="insertion_apprenants.php" method="post">
         <div class="row mt-3">
                  <div class="col-5 m-3">
                             <input type="text" class="form-control m-2" placeholder="Nom" name="nom">
@@ -52,20 +52,12 @@ require_once 'connexion.php';
                                               <input type="number" class="form-control m-2" placeholder="Contact" name="contact">
                                             </div>
                             </div>
-                                    <p class="text-light m-2">Genre:</p>
-                                        <div class="custom-control custom-radio custom-control-inline">
-                                                <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input m-3 ">
-                                                <label class="custom-control-label text-light" for="customRadioInline1" name="m">Masculin</label>
-                                              </div>
-                                              <div class="custom-control custom-radio custom-control-inline">
-                                                <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input m-3 ">
-                                                <label class="custom-control-label text-light" for="customRadioInline2" name="f">Feminin</label>
-                                              </div>
+                                   
                                           <div class="row">
                                                 <div class="row m-2">
                                                         <div class="buttonap ">
-                                                            <input id="sendTuteurs" type="submit" value="Ajouter" name="ajouter" class="btn btn-light sbouton2 col-2">
-                                                            <input id="annuler" type="" value="Annuler" name="valider" class="btn btn-light sbouton2 col-2">
+                                                            <input id="sendapprenants" type="submit" value="Ajouter" name="ajouter" class="btn btn-light sbouton2 col-2">
+                                                            <input id="annuler" type="" value="Annuler" name="annuler" class="btn btn-light sbouton2 col-2">
                                                         </div>
                                                        
                                                          
