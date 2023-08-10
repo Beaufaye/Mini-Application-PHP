@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* Nom de SGBD :  MySQL 5.0                                     */
-/* Date de création :  09/08/2023 10:27:26                      */
+/* Date de création :  10/08/2023 13:28:33                      */
 /*==============================================================*/
 
 
@@ -14,7 +14,6 @@ drop table if exists Tuteur;
 create table Apprenant
 (
    id_apprenant         int not null,
-   id_tuteur            int not null,
    nom                  varchar(254),
    prenom               varchar(254),
    date_de_naissance    datetime,
@@ -32,6 +31,7 @@ create table Apprenant
 create table Tuteur
 (
    id_tuteur            int not null,
+   id_apprenant         int not null,
    nom                  varchar(254),
    prenom               varchar(254),
    date_de_naissance    datetime,
@@ -43,6 +43,6 @@ create table Tuteur
    key AK_Identifiant_2 (id_tuteur)
 );
 
-alter table Apprenant add constraint FK_Association_1 foreign key (id_tuteur)
-      references Tuteur (id_tuteur) on delete restrict on update restrict;
+alter table Tuteur add constraint FK_Association_1 foreign key (id_apprenant)
+      references Apprenant (id_apprenant) on delete restrict on update restrict;
 

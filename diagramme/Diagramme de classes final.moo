@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{09DCC169-9CFB-4C30-99D5-0B5306E2738B}" Label="" LastModificationDate="1691673968" Name="Diagramme de classes UML_1" Objects="31" Symbols="3" Target="Analyse" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{09DCC169-9CFB-4C30-99D5-0B5306E2738B}" Label="" LastModificationDate="1691676045" Name="Diagramme de classes UML_1" Objects="31" Symbols="3" Target="Analyse" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -2501,8 +2501,8 @@ Shadow=0</a:DisplayPreferences>
 <o:AssociationSymbol Id="o7">
 <a:CreationDate>1691415436</a:CreationDate>
 <a:ModificationDate>1691415436</a:ModificationDate>
-<a:Rect>((-15075,1564), (-8400,3912))</a:Rect>
-<a:ListOfPoints>((-8400,2738),(-15075,2738))</a:ListOfPoints>
+<a:Rect>((-15075,1576), (-8400,3924))</a:Rect>
+<a:ListOfPoints>((-8400,2750),(-15075,2750))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
 <a:ArrowStyle>0</a:ArrowStyle>
 <a:LineColor>4194432</a:LineColor>
@@ -2523,7 +2523,7 @@ MULA 0 Arial,8,N</a:FontList>
 <a:CreationDate>1691407159</a:CreationDate>
 <a:ModificationDate>1691415019</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
-<a:Rect>((-26897,-2320), (-14951,8318))</a:Rect>
+<a:Rect>((-26897,-1833), (-14951,7831))</a:Rect>
 <a:LineColor>128</a:LineColor>
 <a:FillColor>8637161</a:FillColor>
 <a:ShadowColor>12632256</a:ShadowColor>
@@ -2578,7 +2578,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Code>Apprenant</a:Code>
 <a:CreationDate>1691407159</a:CreationDate>
 <a:Creator>HP</a:Creator>
-<a:ModificationDate>1691415604</a:ModificationDate>
+<a:ModificationDate>1691676045</a:ModificationDate>
 <a:Modifier>HP</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
@@ -2650,17 +2650,6 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
 <o:Attribute Id="o19">
-<a:ObjectID>953B4A33-89C0-46AE-8419-0238941EC369</a:ObjectID>
-<a:Name>tuteur</a:Name>
-<a:Code>tuteur</a:Code>
-<a:CreationDate>1691414952</a:CreationDate>
-<a:Creator>HP</a:Creator>
-<a:ModificationDate>1691414978</a:ModificationDate>
-<a:Modifier>HP</a:Modifier>
-<a:DataType>String</a:DataType>
-<a:Attribute.Visibility>-</a:Attribute.Visibility>
-</o:Attribute>
-<o:Attribute Id="o20">
 <a:ObjectID>9329FA9B-D0D9-4E6A-BFD4-56F3460406DB</a:ObjectID>
 <a:Name>contact</a:Name>
 <a:Code>contact</a:Code>
@@ -2673,7 +2662,7 @@ LABL 0 Arial,8,N</a:FontList>
 </o:Attribute>
 </c:Attributes>
 <c:Identifiers>
-<o:Identifier Id="o21">
+<o:Identifier Id="o20">
 <a:ObjectID>D5ED9D97-D86D-4BBA-98EA-13FA95BA905F</a:ObjectID>
 <a:Name>Identifiant_1</a:Name>
 <a:Code>Identifiant_1</a:Code>
@@ -2685,7 +2674,7 @@ LABL 0 Arial,8,N</a:FontList>
 <o:Attribute Ref="o13"/>
 </c:Identifier.Attributes>
 </o:Identifier>
-<o:Identifier Id="o22">
+<o:Identifier Id="o21">
 <a:ObjectID>CDE6101A-C525-47A8-A29C-2C941373F97A</a:ObjectID>
 <a:Name>Identifiant_2</a:Name>
 <a:Code>Identifiant_2</a:Code>
@@ -2699,7 +2688,7 @@ LABL 0 Arial,8,N</a:FontList>
 </o:Identifier>
 </c:Identifiers>
 <c:PrimaryIdentifier>
-<o:Identifier Ref="o22"/>
+<o:Identifier Ref="o21"/>
 </c:PrimaryIdentifier>
 </o:Class>
 <o:Class Id="o12">
@@ -2712,7 +2701,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>HP</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
-<o:Attribute Id="o23">
+<o:Attribute Id="o22">
 <a:ObjectID>051CC5AE-621E-490D-AE41-BFC463F1E63C</a:ObjectID>
 <a:Name>id_tuteur</a:Name>
 <a:Code>id_tuteur</a:Code>
@@ -2724,7 +2713,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 <a:Multiplicity>1..1</a:Multiplicity>
 </o:Attribute>
-<o:Attribute Id="o24">
+<o:Attribute Id="o23">
 <a:ObjectID>F70667A8-488D-432D-863D-D20B4445FB4E</a:ObjectID>
 <a:Name>nom</a:Name>
 <a:Code>nom</a:Code>
@@ -2735,7 +2724,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o25">
+<o:Attribute Id="o24">
 <a:ObjectID>1C5946E4-2971-4314-A18F-6AB4AE2C702F</a:ObjectID>
 <a:Name>prenom</a:Name>
 <a:Code>prenom</a:Code>
@@ -2746,7 +2735,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o26">
+<o:Attribute Id="o25">
 <a:ObjectID>2245D4A0-F971-4356-A121-7D4AE337E328</a:ObjectID>
 <a:Name>date_de_naissance</a:Name>
 <a:Code>date_de_naissance</a:Code>
@@ -2757,7 +2746,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:DataType>Date</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o27">
+<o:Attribute Id="o26">
 <a:ObjectID>AD469020-3C65-4C7D-B36F-8CF056A9B596</a:ObjectID>
 <a:Name>genre</a:Name>
 <a:Code>genre</a:Code>
@@ -2768,7 +2757,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o28">
+<o:Attribute Id="o27">
 <a:ObjectID>C6DB0C18-4CD3-4F80-A0B6-B53C6C12D793</a:ObjectID>
 <a:Name>ville</a:Name>
 <a:Code>ville</a:Code>
@@ -2779,7 +2768,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:DataType>String</a:DataType>
 <a:Attribute.Visibility>-</a:Attribute.Visibility>
 </o:Attribute>
-<o:Attribute Id="o29">
+<o:Attribute Id="o28">
 <a:ObjectID>4ABE26F5-5A52-4950-8993-712B70316956</a:ObjectID>
 <a:Name>contact</a:Name>
 <a:Code>contact</a:Code>
@@ -2792,7 +2781,7 @@ LABL 0 Arial,8,N</a:FontList>
 </o:Attribute>
 </c:Attributes>
 <c:Identifiers>
-<o:Identifier Id="o30">
+<o:Identifier Id="o29">
 <a:ObjectID>9746F967-5B63-48A6-9C30-E501221E41D3</a:ObjectID>
 <a:Name>Identifiant_1</a:Name>
 <a:Code>Identifiant_1</a:Code>
@@ -2801,10 +2790,10 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1691415022</a:ModificationDate>
 <a:Modifier>HP</a:Modifier>
 <c:Identifier.Attributes>
-<o:Attribute Ref="o23"/>
+<o:Attribute Ref="o22"/>
 </c:Identifier.Attributes>
 </o:Identifier>
-<o:Identifier Id="o31">
+<o:Identifier Id="o30">
 <a:ObjectID>0D3A3560-7EEF-4051-AFBC-C40C3337E6DC</a:ObjectID>
 <a:Name>Identifiant_2</a:Name>
 <a:Code>Identifiant_2</a:Code>
@@ -2813,10 +2802,10 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1691576103</a:ModificationDate>
 <a:Modifier>HP</a:Modifier>
 <c:Identifier.Attributes>
-<o:Attribute Ref="o23"/>
+<o:Attribute Ref="o22"/>
 </c:Identifier.Attributes>
 </o:Identifier>
-<o:Identifier Id="o32">
+<o:Identifier Id="o31">
 <a:ObjectID>0F851B9B-B08E-4A86-AE77-34B16D079E06</a:ObjectID>
 <a:Name>Identifiant_3</a:Name>
 <a:Code>Identifiant_3</a:Code>
@@ -2825,12 +2814,12 @@ LABL 0 Arial,8,N</a:FontList>
 <a:ModificationDate>1691576103</a:ModificationDate>
 <a:Modifier>HP</a:Modifier>
 <c:Identifier.Attributes>
-<o:Attribute Ref="o23"/>
+<o:Attribute Ref="o22"/>
 </c:Identifier.Attributes>
 </o:Identifier>
 </c:Identifiers>
 <c:PrimaryIdentifier>
-<o:Identifier Ref="o32"/>
+<o:Identifier Ref="o31"/>
 </c:PrimaryIdentifier>
 </o:Class>
 </c:Classes>
@@ -2841,10 +2830,10 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Code>Association_1</a:Code>
 <a:CreationDate>1691415436</a:CreationDate>
 <a:Creator>HP</a:Creator>
-<a:ModificationDate>1691673968</a:ModificationDate>
+<a:ModificationDate>1691676037</a:ModificationDate>
 <a:Modifier>HP</a:Modifier>
-<a:RoleAMultiplicity>1..*</a:RoleAMultiplicity>
-<a:RoleBMultiplicity>1..1</a:RoleBMultiplicity>
+<a:RoleAMultiplicity>1..1</a:RoleAMultiplicity>
+<a:RoleBMultiplicity>1..*</a:RoleBMultiplicity>
 <a:RoleBNavigability>0</a:RoleBNavigability>
 <c:Object1>
 <o:Class Ref="o11"/>
@@ -2855,7 +2844,7 @@ LABL 0 Arial,8,N</a:FontList>
 </o:Association>
 </c:Associations>
 <c:TargetModels>
-<o:TargetModel Id="o33">
+<o:TargetModel Id="o32">
 <a:ObjectID>C8B1AA82-6376-4D12-909D-8E9A5A7F360F</a:ObjectID>
 <a:Name>Analyse</a:Name>
 <a:Code>Analysis</a:Code>
@@ -2870,7 +2859,7 @@ LABL 0 Arial,8,N</a:FontList>
 <o:Shortcut Ref="o5"/>
 </c:SessionShortcuts>
 </o:TargetModel>
-<o:TargetModel Id="o34">
+<o:TargetModel Id="o33">
 <a:ObjectID>B9A67835-ECB4-4C41-A1E7-3C869604E475</a:ObjectID>
 <a:Name>Diagramme de classes UML_mini</a:Name>
 <a:Code>DIAGRAMME_DE_CLASSES_UML_1</a:Code>
@@ -2884,7 +2873,7 @@ LABL 0 Arial,8,N</a:FontList>
 <o:Shortcut Ref="o3"/>
 </c:SessionShortcuts>
 </o:TargetModel>
-<o:TargetModel Id="o35">
+<o:TargetModel Id="o34">
 <a:ObjectID>EB1B7E07-FCC1-4C6E-97D9-40C763562159</a:ObjectID>
 <a:Name>Diagramme de classes UML_1</a:Name>
 <a:Code>DIAGRAMME_DE_CLASSES_UML_1</a:Code>
