@@ -68,8 +68,9 @@ require_once 'connexion.php';
         </table>
     </div>
     
-    <div>
-
+    
+    <div class="text-center">
+        <a class="btn btn-danger" href="ajout.php" role="button">Ajouter tuteurs</a>
     </div>
 
 

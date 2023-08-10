@@ -51,15 +51,7 @@ require_once 'connexion.php';
                                               <input type="number" class="form-control m-2" placeholder="Contact" name="contact">
                                             </div>
                             </div>
-                                    <p class="text-light m-2">Genre:</p>
-                                        <div class="custom-control custom-radio custom-control-inline">
-                                                <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input m-3 ">
-                                                <label class="custom-control-label text-light" for="customRadioInline1" name="m">Masculin</label>
-                                              </div>
-                                              <div class="custom-control custom-radio custom-control-inline">
-                                                <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input m-3 ">
-                                                <label class="custom-control-label text-light" for="customRadioInline2" name="f">Feminin</label>
-                                              </div>
+                                    
                                           <div class="row">
                                                 <div class="row m-2">
                                                         <div class="buttonap ">
