@@ -13,91 +13,69 @@ require_once 'connexion.php';
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-                        <div class="container-fluid m-5 bg-danger" style="height: 95px;">
-                                <img src="images/logo simplon.png" alt
-                                        style="width: 90px; height: 60px;">
-                                <div class="collapse navbar-collapse"
-                                        id="navbarTogglerDemo03">
-                                        <ul
-                                                class="navbar-nav me-auto mb-2 mb-lg-0">
+        <?php
+                require_once 'menu.php';     
+        ?>
+                <div class="text-center">
+                    <h2>AJOUTER DES APPRENANTS</h2>
+                </div>
 
-                                                <div>
-                                                        <li class="nav-item">
-                                                                <a
-                                                                        class="nav-link active text-light"
-                                                                        aria-current="page"
-                                                                        style="font-size: 40px;"
-                                                                        href="index.php">Acceuil</a>
-                                                        </li>
-                                                </div>
-                                                <li class="nav-item">
-                                                        <a
-                                                                class="nav-link text-light"
-                                                                href="apprenants.php"
-                                                                style="font-size: 40px;">Apprenants</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                        <a
-                                                                class="nav-link text-light"
-                                                                style="font-size: 40px;"
-                                                                href="tuteurs.php">Tuteurs</a>
-                                                </li>
-                                        </ul>
-                                        <img src="images/hcr.png" alt
-                                                style="width: 100px; height: 60px;">
-                                </div>
-                        </div>
-                </nav>
-
+                <?php 
+                                        
+                ?>
    <!-- FORMULAIRE CHANCELLA-->
 
-                        <form>
-                                <div class="row">
-                                  <div class="col-6">
-                                    <input type="text" class="form-control" placeholder="Nom">
-                                  </div>
-                                  <div class="col">
-                                    <input type="text" class="form-control" placeholder="Prenom">
-                                  </div>
-                                </div>
-                                <div class="row">
-                                        <div class="col-6">
-                                          <input type="date" class="form-control" placeholder="Date de naissance">
-                                        </div>
-                                        <div class="col">
-                                          <input type="text" class="form-control" placeholder="Tuteur">
-                                        </div>
-                                      </div>
-                                      <div class="row">
-                                            <div class="col-6">
-                                              <input type="text" class="form-control" placeholder=" Ville">
+   <div class="m-5 bg-danger"  >
+   <form action="" method="post">
+        <div class="row mt-3">
+                 <div class="col-5 m-3">
+                            <input type="text" class="form-control m-2" placeholder="Nom" name="nom">
+                </div>
+        <div class="col-5 m-3">
+                <input type="text" class="form-control m-2" placeholder="Prenom" name="prenom">
+        </div>
+         </div>
+
+                <div class="row mt-3">
+                          <div class="col-5 m-3">
+                                    <input type="date" class="form-control m-2" placeholder="Date de naissance" name="date_naiss">
+                          </div>
+                        <div class="col-5 m-3">
+                                   <input type="text" class="form-control m-2" placeholder="Tuteur" name="tuteur">
+                         </div>
+                          </div>
+                              <div class="row mt-3">
+                                            <div class="col-5 m-3">
+                                              <input type="text" class="form-control m-2" placeholder=" Ville" name="ville">
                                             </div>
-                                            <div class="col-6">
-                                              <input type="number" class="form-control" placeholder="Contact">
+                                            <div class="col-5 m-3">
+                                              <input type="number" class="form-control m-2" placeholder="Contact" name="contact">
                                             </div>
-                                          </div>
-                                          <p>Genre:</p>
-                                          <div class="custom-control custom-radio custom-control-inline">
-                                                <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
-                                                <label class="custom-control-label" for="customRadioInline1">Masculin</label>
+                            </div>
+                                    <p class="text-light m-2">Genre:</p>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                                <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input m-3 ">
+                                                <label class="custom-control-label text-light" for="customRadioInline1" name="m">Masculin</label>
                                               </div>
                                               <div class="custom-control custom-radio custom-control-inline">
-                                                <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
-                                                <label class="custom-control-label" for="customRadioInline2">Feminin</label>
+                                                <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input m-3 ">
+                                                <label class="custom-control-label text-light" for="customRadioInline2" name="f">Feminin</label>
                                               </div>
                                           <div class="row">
-                                                <div class="col-6">
-                                                        <div class="col-auto">
-                                                                <button type="submit" class="btn btn-danger mb-2">Ajouter</button>
-                                                                <button type="submit" class="btn btn-danger mb-2">Annuler</button>
-                                                              </div>
-                              </form>
+                                                <div class="row m-2">
+                                                        <div class="buttonap ">
+                                                            <input id="sendTuteurs" type="submit" value="Ajouter" name="ajouter" class="btn btn-light sbouton2 col-2">
+                                                            <input id="annuler" type="" value="Annuler" name="valider" class="btn btn-light sbouton2 col-2">
+                                                        </div>
+                                                       
+                                                         
+                                                </div>
+                              </form>              
+    </div>   
+   
         
 
-   <div class="m-5 text-center text-light bg-danger" height: 55px;>
-        <h2>COPYRIGHT SIMPLON 2023</h2>
-    </div>
+   
   
 
     <script type="text/javascript" src="js/navigateur.js"></script>

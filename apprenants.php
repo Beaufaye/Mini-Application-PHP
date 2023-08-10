@@ -13,42 +13,9 @@ require_once 'connexion.php';
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-                        <div class="container-fluid m-5 bg-danger" style="height: 95px;">
-                                <img src="images/logo simplon.png" alt
-                                        style="width: 90px; height: 60px;">
-                                <div class="collapse navbar-collapse"
-                                        id="navbarTogglerDemo03">
-                                        <ul
-                                                class="navbar-nav me-auto mb-2 mb-lg-0">
-
-                                                <div>
-                                                        <li class="nav-item">
-                                                                <a
-                                                                        class="nav-link active text-light"
-                                                                        aria-current="page"
-                                                                        style="font-size: 40px;"
-                                                                        href="index.php">Acceuil</a>
-                                                        </li>
-                                                </div>
-                                                <li class="nav-item">
-                                                        <a
-                                                                class="nav-link text-light"
-                                                                href=""
-                                                                style="font-size: 40px;">Apprenants</a>
-                                                </li>
-                                                <li class="nav-item">
-                                                        <a
-                                                                class="nav-link text-light"
-                                                                style="font-size: 40px;"
-                                                                href="tuteurs.php">Tuteurs</a>
-                                                </li>
-                                        </ul>
-                                        <img src="images/hcr.png" alt
-                                                style="width: 100px; height: 60px;">
-                                </div>
-                        </div>
-                </nav>
+        <?php
+                require_once 'menu.php';
+        ?>
 
     <div class="text-center">
         <h2>LISTE DES APPRENANTS</h2>
