@@ -29,7 +29,7 @@ if(isset($_POST['ajouter']))
    
 
     $inserer_apprenants = $dbco->prepare("INSERT INTO apprenant(nom, prenom, date_de_naissance, sexe, tuteur, ville, contact)
-                                        VALUES(:nom, :prenom, :date_naiss, :sexe, :tuteur :ville, :contact)");
+                                        VALUES(:nom, :prenom, :date_naiss, :sexe, :tuteur, :ville, :contact)");
 
     $inserer_apprenants->execute(array(
         'nom' => $nom,
