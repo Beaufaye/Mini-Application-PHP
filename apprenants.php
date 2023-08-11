@@ -29,6 +29,8 @@ require_once 'connexion.php';
                     <th scope="col">Nom</th>
                     <th scope="col">Prenom</th>
                     <th scope="col">Date de Naissance</th>
+                    <th scope="col">Sexe</th>
+                    <th scope="col">Tuteur</th>
                     <th scope="col">Ville</th>
                     <th scope="col">Contact</th>
                 </tr>
@@ -50,6 +52,8 @@ require_once 'connexion.php';
                     echo "<td> $donnees[nom] </td>";
                     echo "<td> $donnees[prenom] </td>";
                     echo "<td> $donnees[date_de_naissance] </td>";
+                    echo "<td> $donnees[sexe] </td>";
+                    echo "<td> $donnees[tuteur] </td>";
                     echo "<td> $donnees[ville] </td>";
                     echo "<td> $donnees[contact] </td>";
                     echo "</tr>";

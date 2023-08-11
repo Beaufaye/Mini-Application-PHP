@@ -29,7 +29,7 @@ require_once 'connexion.php';
                     <th scope="col">Nom</th>
                     <th scope="col">Prenom</th>
                     <th scope="col">Date de Naissance</th>
-                    <th scope="col">Genre</th>
+                    <th scope="col">Sexe</th>
                     <th scope="col">Ville</th>
                     <th scope="col">Contact</th>
                 </tr>
@@ -50,8 +50,8 @@ require_once 'connexion.php';
                     echo "<td> $i </td>";
                     echo "<td> $donnees[nom] </td>";
                     echo "<td> $donnees[prenom] </td>";
-                    echo "<td> $donnees[date] </td>";
-                    echo "<td> $donnees[genre] </td>";
+                    echo "<td> $donnees[date_de_naissance] </td>";
+                    echo "<td> $donnees[sexe] </td>";
                     echo "<td> $donnees[ville] </td>";
                     echo "<td> $donnees[contact] </td>";
                     echo "</tr>";
@@ -70,7 +70,7 @@ require_once 'connexion.php';
     
     
     <div class="text-center">
-        <a class="btn btn-danger" href="ajout.php" role="button">Ajouter tuteurs</a>
+        <a class="btn btn-danger" href="ajout_tuteurs.php" role="button">Ajouter tuteurs</a>
     </div>
 
 

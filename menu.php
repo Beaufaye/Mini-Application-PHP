@@ -21,7 +21,7 @@
                                                                         class="nav-link active text-light"
                                                                         aria-current="page"
                                                                         style="font-size: 40px;"
-                                                                        href="#">Acceuil</a>
+                                                                        href="index.php">Acceuil</a>
                                                         </li>
                                                 </div>
                                                 <li class="nav-item">

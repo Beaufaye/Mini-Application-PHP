@@ -26,7 +26,7 @@ require_once 'connexion.php';
    <!-- FORMULAIRE CHANCELLA-->
 
    <div class="m-5 bg-danger"  >
-   <form action="" method="post">
+   <form action="insertion_tuteurs.php" method="post">
         <div class="row mt-3">
                  <div class="col-5 m-3">
                             <input type="text" class="form-control m-2" placeholder="Nom" name="nom">
@@ -41,6 +41,13 @@ require_once 'connexion.php';
                                     <input type="date" class="form-control m-2" placeholder="Date de naissance" name="date_naiss">
                           </div>
                         <div class="col-5 m-3">
+                        <div class="col-5 m-3">
+                                            <label class="text-light" for="">Sexe</label>                                              
+                                                <select  name="sexe" id="">
+                                                <option value="Masculin">Masculin</option>
+                                                <option value="Feminin">Feminin</option>
+                                                </select>
+                                            </div>
                          </div>
                           </div>
                               <div class="row mt-3">
@@ -74,7 +81,7 @@ require_once 'connexion.php';
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/details.js"></script>
     <script type="text/javascript">
-        afficher('formulaire');
+        
     </script>
 </body>
 
