@@ -60,7 +60,7 @@ require_once 'connexion.php';
                 </div>
 
                 <div class="col-12 mt-5">
-                    <button type="submit" class="btn btn-primary" id="sendapprenants" type="submit" value="Ajouter" name="ajouter" onclick='return confirmation()'>Enregistrer</button>
+                    <button type="submit" class="btn btn-dark" id="sendapprenants" type="submit" value="Ajouter" name="ajouter" onclick='return confirmation()'>Enregistrer</button>
                     <button type="submit" class="btn btn-light" id="annuler" type="" value="Annuler" name="annuler">Annuler</button>
                 </div>
         </form>        
