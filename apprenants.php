@@ -23,7 +23,7 @@ require_once 'connexion.php';
 
     <div class="m-5">
         <table class="table">
-            <thead class="bg-danger">
+            <thead class="bg-danger text-light">
                 <tr>
                     <th scope="col">No</th>
                     <th scope="col">Nom</th>

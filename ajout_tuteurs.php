@@ -26,51 +26,54 @@ require_once 'connexion.php';
    <!-- FORMULAIRE CHANCELLA-->
 
    <div class="m-5 bg-danger"  >
-   <form action="insertion_tuteurs.php" method="post">
-        <div class="row mt-3">
-                 <div class="col-5 m-3">
-                            <input type="text" class="form-control m-2" placeholder="Nom" name="nom">
+  
+        
+            <form action="insertion_apprenants.php" method="post" class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label text-light">Nom</label>
+                    <input type="text" class="form-control" id="inputEmail4" placeholder="Entrer le nom" name="nom" required>
                 </div>
-        <div class="col-5 m-3">
-                <input type="text" class="form-control m-2" placeholder="Prenom" name="prenom">
-        </div>
-         </div>
-
-                <div class="row mt-3">
-                          <div class="col-5 m-3">
-                                    <input type="date" class="form-control m-2" placeholder="Date de naissance" name="date_naiss">
-                          </div>
-                        <div class="col-5 m-3">
-                        <div class="col-5 m-3">
-                                            <label class="text-light" for="">Sexe</label>                                              
-                                                <select  name="sexe" id="">
-                                                <option value="Masculin">Masculin</option>
-                                                <option value="Feminin">Feminin</option>
-                                                </select>
-                                            </div>
-                         </div>
-                          </div>
-                              <div class="row mt-3">
-                                            <div class="col-5 m-3">
-                                              <input type="text" class="form-control m-2" placeholder=" Ville" name="ville">
-                                            </div>
-                                            <div class="col-5 m-3">
-                                              <input type="number" class="form-control m-2" placeholder="Contact" name="contact">
-                                            </div>
-                            </div>
-                                    
-                                          <div class="row">
-                                                <div class="row m-2">
-                                                        <div class="buttonap ">
-                                                            <input id="sendTuteurs" type="submit" value="Ajouter" name="ajouter" class="btn btn-light sbouton2 col-2">
-                                                            <input id="annuler" type="" value="Annuler" name="valider" class="btn btn-light sbouton2 col-2">
-                                                        </div>
-                                                       
-                                                         
-                                                </div>
-                              </form>              
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label text-light">Prénom</label>
+                    <input type="text" class="form-control" id="inputPassword4" placeholder="Entrer le prénom" name="prenom" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputAddress" class="form-label text-light">Date de naissance</label>
+                    <input type="date" class="form-control" id="inputAddress" name="date_naiss" required>
+                </div>
+                <div class="col-6">
+                    <label for="inputAddress2" class="form-label text-light">Sexe</label>
+                    <select id="inputState" class="form-select" name="sexe" required>
+                        <option selected>Choisissez..</option>
+                        <option>Masculin</option>
+                        <option>Feminin</option>
+                    </select>
+                </div>
+                
+                <div class="col-md-6">
+                    <label for="inputState" class="form-label text-light">Ville</label>
+                    <input type="text" class="form-control" id="inputCity" placeholder="Entrer la ville" name="ville" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputZip" class="form-label text-light" >Contact</label>
+                    <input type="number" class="form-control" id="inputZip" placeholder="Entrer le contact" name="contact" required>
+                </div>
+                <div class="col-12">
+                  
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary" id="sendapprenants" type="submit" value="Ajouter" name="ajouter" onclick='return confirmation()'>Enregistrer</button>
+                    <button type="submit" class="btn btn-light" id="annuler" type="" value="Annuler" name="annuler">Annuler</button>
+                </div>
+        </form>        
     </div>
-       
+
+    <script>
+      function confirmation()
+      {
+        return confirm('Voulez-vous enregistrer ce tuteur?');
+      }
+    </script>
    
         
 
