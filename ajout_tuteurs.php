@@ -28,7 +28,7 @@ require_once 'connexion.php';
    <div class="m-5 bg-danger"  >
   
         
-            <form action="insertion_apprenants.php" method="post" class="row g-3">
+            <form action="insertion_apprenants.php" method="post" class="row p-3">
                 <div class="col-md-6">
                     <label for="inputEmail4" class="form-label text-light">Nom</label>
                     <input type="text" class="form-control" id="inputEmail4" placeholder="Entrer le nom" name="nom" required>
@@ -58,10 +58,8 @@ require_once 'connexion.php';
                     <label for="inputZip" class="form-label text-light" >Contact</label>
                     <input type="number" class="form-control" id="inputZip" placeholder="Entrer le contact" name="contact" required>
                 </div>
-                <div class="col-12">
-                  
-                </div>
-                <div class="col-12">
+
+                <div class="col-12 mt-5">
                     <button type="submit" class="btn btn-primary" id="sendapprenants" type="submit" value="Ajouter" name="ajouter" onclick='return confirmation()'>Enregistrer</button>
                     <button type="submit" class="btn btn-light" id="annuler" type="" value="Annuler" name="annuler">Annuler</button>
                 </div>
